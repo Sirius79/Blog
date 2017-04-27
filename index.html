@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css" type='text/css'/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <script src="jquery.flexslider-min.js"></script>
+    <style>
+        html,body{
+            height:100%
+        }
+        
+        .flex-container{
+            position: relative;
+            margin: 0 auto; 
+            top: 10px; 
+            padding: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image"></div>
+    <main  data-spy="scroll" data-target=".navbar" data-offset="50" id="back">
+        <nav class="navbar navbar-default"  data-spy="affix" data-offset-top="197">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">LIFE STYLE</a></li>
+                    <li class="dropdown">
+                        <a class="menu" href="#">ARCHIVE
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">FEATURED</a></li>
+                            <li><a href="#">POSTS</a></li>
+                            <li><a href="#">LIGHTSHOT</a></li>
+                        </ul>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">DECOR</a></li>
+                    <li><a href="#">FOOD</a></li>
+                </ul>
+                <div class="row">
+                    <div class="span12">
+                        <form id="custom-search-form" class="form-search form-horizontal pull-right">
+                            <div class="input-append span12">
+                                <input type="text" class="search-query" placeholder="Search">
+                                <button type="submit" class="btn"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="flex-container">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <a href="#"><img src="img/slide1.jpg" /></a>
+                    </li>
+            
+                    <li>
+                        <img src="img/slide2.jpg" />
+                    </li>
+            
+                    <li>
+                        <img src="img/slide3.jpg" />
+                        <p>Designing The Well-Tempered Web</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <br/><br/><br/><br/><br/>
+            <div class="row">
+                <div class="col-sm-1"><!--left col-->
+                    <div class="hold"></div>
+                </div>
+                <div class="col-sm-7" id="content">
+                    <div class="post">
+                        <a href="#">
+                            <img width="100%" height="100%" class="thumb" style="overflow: auto;" src="http://3.bp.blogspot.com/-FSQ0H7Aqja0/VnApAe0wnXI/AAAAAAAADhQ/KE_6GLmONnI/s1600/33dca3b1ecb01a7d-2012_WeAre-TheRhoads_oct_KinfolkVol5_10_o-960x640.jpg">
+                        </a>
+                        <br/><br/>
+                        <div class='test'>INKED</div>
+                            <h2 class="page-title">
+                                <a href="article.html">Responsive & Mobile Design</a>
+                            </h2>
+                        <br/>
+                        <div class="entry-content">
+                        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel
+                        </div>
+                        <br/>
+                        <a class="read-more" href="article.html">CONTINUE READING></a>
+                    </div>
+
+                    <br/><br/><br/>
+
+                    <div class="post">
+                        <a href="#">
+                            <img width="100%" height="100%" class="thumb" style="overflow: auto;" src="http://1.bp.blogspot.com/-HDs-B2Zb_XI/VnApC9eQldI/AAAAAAAADhw/gXSj4FO2Wg0/s1600/blog-01.jpg">
+                        </a>
+                        <br/><br/>
+                        <div class='test'>FOOD</div>
+                            <h2 class="page-title">
+                                <a href="#">Are you ready for some football? Not really.</a>
+                            </h2>
+                        <br/>
+                        <div class="entry-content">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+                        </div>
+                        <br/>
+                        <a class="read-more" href="#">CONTINUE READING></a>
+                    </div>
+
+                    <br/><br/><br/>
+
+                    <div class="post">
+                        <a href="#">
+                            <img width="100%" height="100%" class="thumb" style="overflow: auto;" src="http://3.bp.blogspot.com/-MK-gr-ivaRo/Vna_7PuubhI/AAAAAAAADmk/KuwKekEOmi8/s1600/618-770x515.jpeg">
+                        </a>
+                        <br/><br/>
+                        <div class='test'>GALLERY</div>
+                            <h2 class="page-title">
+                                <a href="#">Install Tinc and VPN setup on Debian</a>
+                            </h2>
+                        <br/>
+                        <div class="entry-content">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+                        </div>
+                        <br/>
+                        <a class="read-more" href="#">CONTINUE READING></a>
+                    </div>
+
+                    <br/><br/><br/>
+
+                    <div class="post">
+                        <a href="#">
+                            <img width="100%" height="100%" class="thumb" style="overflow: auto;" src="http://4.bp.blogspot.com/-cPnq0pluWqc/VnAq3ff8OVI/AAAAAAAADh8/pGPTcO-_I7U/s1600/26.jpg">
+                        </a>
+                        <br/><br/>
+                        <div class='test'>OUTDOOR</div>
+                            <h2 class="page-title">
+                                <a href="#">Awesome guide to explore Paris</a>
+                            </h2>
+                        <br/>
+                        <div class="entry-content">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+                        </div>
+                        <br/>
+                        <a class="read-more" href="#">CONTINUE READING></a>
+                    </div>
+
+                    <br/><br/><br/>
+
+                    <div class="post">
+                        <a href="#">
+                            <img width="100%" height="100%" class="thumb" style="overflow: auto;" src="http://3.bp.blogspot.com/-RNQKtNpBmMM/VnKs1DE1dUI/AAAAAAAADkU/5oETORlGVRk/s1600/girl-style-with-skateboard-wallpapers-800x500.jpg">
+                        </a>
+                        <br/><br/>
+                        <div class='test'>FOOD</div>
+                            <h2 class="page-title">
+                                <a href="#">Cornish Pasty was invented</a>
+                            </h2>
+                        <br/>
+                        <div class="entry-content">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+                        </div>
+                        <br/>
+                        <a class="read-more" href="#">CONTINUE READING></a>
+                    </div>
+
+                    <br/><br/><br/>
+
+                    <div class="post">
+                        <a href="#">
+                            <img width="100%" height="100%" class="thumb" style="overflow: auto;" src="http://1.bp.blogspot.com/-7llS0AhMSUg/Vna4JyPa0xI/AAAAAAAADmM/3Kpe1GJ5PtY/s1600/19-970x610.jpg">
+                        </a>
+                        <br/><br/>
+                        <div class='test'>GALLERY</div>
+                            <h2 class="page-title">
+                                <a href="#">Back to school in New Orleans</a>
+                            </h2>
+                        <br/>
+                        <div class="entry-content">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+                        </div>
+                        <br/>
+                        <a class="read-more" href="#">CONTINUE READING></a>
+                    </div>
+
+                    <br/><br/><br/>
+
+                    <div class="post">
+                        <a href="#">
+                            <img width="100%" height="100%" class="thumb" style="overflow: auto;" src="http://3.bp.blogspot.com/-y6RlCIsls_M/VnAuVD_jnjI/AAAAAAAADiI/KOoPH0nMYXY/s1600/girl-office.jpg">
+                        </a>
+                        <br/><br/>
+                        <div class='test'>OUTDOOR</div>
+                            <h2 class="page-title">
+                                <a href="#">Morning on the Seine</a>
+                            </h2>
+                        <br/>
+                        <div class="entry-content">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
+                        </div>
+                        <br/>
+                        <a class="read-more" href="#">CONTINUE READING></a>
+                    </div>
+                </div>
+            <div class="col-sm-3">
+                <div class="author"><h2>ABOUT AUTHOR</h2><br/>
+                    <img height="100%" width="100%" alt="My Photo" src="http://4.bp.blogspot.com/-Bk0tKAcsYAc/VnKsyeBh1-I/AAAAAAAADj0/G9hcG8LE1Fk/s1600/galleries-girl.jpg" style="overflow: auto;"/><br/>
+                    <span class="name"><strong>Rajorshi Chaudhuri</strong></span><br/>
+                    <span class="desc">Far far away, behind the word mountains, far from the countries Consonantia….</span>
+                </div>
+
+                <br/><br/><br/>
+
+                <div class="follow"><h2>FOLLOW ME</h2><br/>
+                    <a href="#" class="fa fa-facebook" id="f"></a>
+                    <a href="#" class="fa fa-twitter" id="t"></a>
+                    <a href="#" class="fa fa-google" id="g"></a>
+                    <a href="#" class="fa fa-youtube" id="y"></a><br/><br/>
+                </div>
+
+                <br/><br/><br/>
+
+                <div class="popular"><h2>POPULAR POSTS<h2><br/>
+                    
+                </div>
+
+                <br/><br/><br/>
+
+                <div class="efollow"><h2>FOLLOW BY EMAIL</h2><br/>
+                    <span class="des">YOU CAN SUBSCRIBE HERE TO GET OUR LATEST UPDATES</span><br/><br/>
+                    <form>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email"><br/>
+                        <button type="submit" class="btn btn-default">SUBMIT</button><br/><br/>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/><br/>
+    </main>
+    <footer style="background:#666;height: 10%">
+        <!--Copyright-->
+        <div class="copyright">
+            <div class="container-fluid"><br/>
+                © 2017 Copyright:
+            </div>
+        </div>
+        <!--/.Copyright-->
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            $('.flexslider').flexslider({
+                animation: 'fade',
+                controlsContainer: '.flexslider'
+            });
+        });
+    </script>
+</body>
+</html>

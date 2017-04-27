@@ -1,0 +1,236 @@
+#custom-search-form {
+    margin:0;
+    margin-top: 15px;
+    padding: 0;
+}
+ 
+#custom-search-form .search-query {
+    padding-right: 3px;
+    padding-right: 4px \9;
+    padding-left: 3px;
+    padding-left: 4px \9;
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+ 
+#custom-search-form button {
+    border: 0;
+    background: none;
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -28px;
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+ 
+.search-query:focus + button {
+    z-index: 3;   
+}
+
+div.image {
+   content:url(img/logo.png);
+   margin: auto;
+}​
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-menu a:hover {background-color: green;}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #008944;  /*change color of links in drop down here*/
+}
+
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+  
+.navbar {
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+body {
+    position: relative; 
+}
+ 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #008944;  /*Sets the text hover color on navbar*/
+}
+
+.tales{
+    width: 100%;
+}
+
+html,body{
+    height:100%
+}
+
+.post{
+    /*border: solid transparent;*/
+    background-color: white;
+}
+
+.title {
+    font-family: serif;
+    padding: 22px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 550;
+}
+p{
+    padding: 22px;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.author, .follow, .popular, .efollow{
+    /*border: solid transparent;*/
+    text-align: center;
+    font-family: serif;
+    font-size: 80;
+    background-color: white;
+}
+
+.name{
+    font-family: cursive;
+    font-size: 100;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+#f:hover {
+    background: white;
+    color: #3B5998;
+    text-decoration: none;
+    border:1px solid #3B5998;
+}
+
+#t:hover {
+    background: white;
+    color: #55ACEE;
+    text-decoration: none;
+    border: 1px solid #55ACEE;
+}
+
+#g:hover{
+    background: white;
+    color: #dd4b39;
+    text-decoration: none;
+    border: 1px solid #dd4b39;
+}
+
+#y:hover{
+    background: white;
+    color: #bb0000;
+    text-decoration: none;
+    border: 1px solid #bb0000;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.efollow .des{
+    font-size: 100;
+    font-family: serif;
+}
+
+.form-control{
+    width:80%; 
+    margin-left:10%
+}
+
+.btn-default {
+    width:80%; 
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-default:hover, .btn-default:active, .btn-default:visited{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.copyright{
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
+#back{
+    background-color: #DCDCDC;
+}
+
+.customHr {
+    width: 95%
+    font-size: 1px;
+    color: rgba(0, 0, 0, 0);
+    background-color: gray;
+    line-height: 1px;
+    margin-top: -6px;
+    margin-bottom: 10px;
+}
+
+.chat{
+    background-color: white;
+}
